@@ -1,0 +1,20 @@
+{
+    "name": "stephen-cox/robo-kubectl-exec",
+    "description": "Robo task for executing commands in Kubernetes containers using kubectl.",
+    "type": "robo-tasks",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stephen Cox",
+            "email": "web@stephencox.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "StephenCox\\Robo\\": "src"
+        }
+    },
+    "require": {
+        "consolidation/robo": "~1|~2"
+    }
+}
